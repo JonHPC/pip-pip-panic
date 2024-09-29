@@ -1,0 +1,52 @@
+  .game-board {
+    display: flex;
+    flex-direction: column; // Ensure rows stack vertically
+    margin: 20px auto;
+  }
+
+  .row {
+    display: flex; // Make each row horizontal
+  }
+
+  .tile {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; // Increase size for better visibility
+  }
+
+  .tile.empty {
+    background-color: #f0f0f0;
+  }
+
+  .tile.arrow {
+    background-color: yellow;
+  }
+
+  .tile.goal {
+    background-color: green;
+  }
+
+  .tile.pip {
+    background-color: lightblue;
+  }
+
+  .tile.zog {
+    background-color: red;
+  }
+
+  .tile.escapePod {
+    background-color: green;
+  }
+
+  .timer {
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+  margin-bottom: 20px;
+  }
+
+/* Other tile types like goal, pip, zog */
