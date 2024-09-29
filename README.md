@@ -1,2 +1,2 @@
-# react-jam-2024
+# Pip Pip Panic!
 My submission for React Jam 2024 (https://reactjam.com/)
